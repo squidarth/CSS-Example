@@ -1,0 +1,100 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background: #87CEFA;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.wrapper{
+    overflow: auto;
+}
+.header-wrapper{
+    position: fixed;
+    height: 30px;
+    background: #333;
+    width: 100%;
+}
+.header{
+    width: 960px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    margin: 5px 0 0 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.nav{
+    list-style: none;
+    display: inline;
+    float: right;
+    margin: 5px 0 0 0;
+}
+.nav li{
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .8em;
+}
+.nav a:hover{
+    color: #777;
+
+}
+.search-bar{
+    float:right;
+    margin: 2px 0 0 0;
+    border-radius: 5px;
+}
+.content{
+    width: 960px;
+    margin: 35px auto 0 auto;
+    padding: 10px 10px 10px 10px;
+    background: #CAE1FF;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.info{
+    float: left;
+    background: #fefeee;
+    padding: 5px 5px 5px 5px;
+    width: 270px;
+    border-radius: 5px;
+
+}
+
+.feed{
+    float: right;
+    background: #fff;
+    width: 650px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.feed-title{
+    width: 100%;
+    font-size: 1.2em;
+    border-bottom: solid 1px #bbb;
+    padding: 0 0 4px 0;
+    margin: 0 0 0 0;
+}
+
+.tweets{
+    list-style: none;
+    width: 100%;
+    float: right;
+    margin: 0 0 0 0;
+}
+
+.tweets li{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #bbb;
+    padding: 5px 5px 5px 5px;
+    margin: 0 0 0 0;
+}
